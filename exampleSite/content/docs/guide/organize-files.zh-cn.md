@@ -1,187 +1,91 @@
 ---
-title: 组织文件
+title: 极佳科技-黄冠
 weight: 1
 prev: /docs/guide
 ---
+# 黄冠 -- 极佳科技 -- 从视频生成到世界模型，打造通用智能的新一代数据引擎
 
-## 目录结构
+## 一、起心动念的点 —— 创业动机的起源（为什么决定创业）
 
-默认情况下，Hugo 会在 `content` 目录中查找 Markdown 文件，目录的结构决定了网站最终的输出结构。
-以本网站为例：
+- **技术人终于迎来了时代机会**：AI 是一场技术范式的革命，像黄冠这样的技术人首次有机会站在“时代主舞台”，这是不能错过的人生时刻。
+- **从中二梦想走向务实创造**：早年创业动机是“想让别人觉得我厉害”，后来转向“想做真正有影响力的产品”，体现了从自我表达到现实价值的成长。
+- **深科技需要技术人来定义未来**：他认为 AI 革命不是拼 UI，而是重塑底层结构，只有技术深厚的 founder 才能真正定义通用智能的走向。
+- **博士训练是“认知能力”的来源**：科研训练虽不直接教赚钱，但构建了创业中真正的“底层认知结构”。
 
-<!--more-->
+## 二、围绕动机 —— 需要解决的问题（创业过程中面临的困惑和挑战）
 
-{{< filetree/container >}}
-  {{< filetree/folder name="content" >}}
-    {{< filetree/file name="_index.md" >}}
-    {{< filetree/folder name="docs" state="open" >}}
-      {{< filetree/file name="_index.md" >}}
-      {{< filetree/file name="getting-started.md" >}}
-      {{< filetree/folder name="guide" state="open" >}}
-        {{< filetree/file name="_index.md" >}}
-        {{< filetree/file name="organize-files.md" >}}
-      {{< /filetree/folder >}}
-    {{< /filetree/folder >}}
-    {{< filetree/folder name="blog" state="open" >}}
-      {{< filetree/file name="_index.md" >}}
-      {{< filetree/file name="post-1.md" >}}
-    {{< /filetree/folder >}}
-  {{< /filetree/folder >}}
-{{< /filetree/container >}}
+- **学术、产业、资本三界割裂**：许多学术背景的人不懂商业节奏，而他能打通三者。
+- **不能再只靠论文思维**：创业不是“技术越牛越好”，而是技术是否带来产品价值；强调商业逻辑优先。
+- **不靠论文启发，而看产业信号**：关注产业头部技术选择（如 NVIDIA、李飞飞）而非 paper。
+- **担心被大公司抄？那你没资格创业**：真正壁垒是持续领先的认知力和迭代速度。
 
-每个 `_index.md` 文件都是对应部分的索引页面。其他 Markdown 文件则是常规页面。
+## 三、解决问题的路径 —— 行动路径和关键决策（怎么解决问题、做了哪些关键决策）
 
-```
-content
-├── _index.md // <- /
-├── docs
-│   ├── _index.md // <- /docs/
-│   ├── getting-started.md // <- /docs/getting-started/
-│   └── guide
-│       ├── _index.md // <- /docs/guide/
-│       └── organize-files.md // <- /docs/guide/organize-files/
-└── blog
-    ├── _index.md // <- /blog/
-    └── post-1.md // <- /blog/post-1/
-```
+- **战略选点：专注事件模型，不被形式带跑**  
+  选择技术门槛更高的“事件建模”，而非外观炫酷的机器人。
 
-## 布局
+- **产品路径：从质检切入，现实问题驱动**  
+  选择复杂现实场景逐步落地 AI 路线，而非直接攻克机器人形态。
 
-Hextra 为不同类型的内容提供了三种布局：
+- **技术方向：果断放弃旧路线，All in 新路线**  
+  放弃仿真1.0，押注生成式仿真2.0，优先长远价值。
 
-| 布局      | 目录               | 特性                                                         |
-| :-------- | :------------------ | :----------------------------------------------------------- |
-| `docs`    | `content/docs/`     | 适合结构化文档，与本部分相同。                               |
-| `blog`    | `content/blog/`     | 用于博客文章，包含列表和详细文章视图。                       |
-| `default` | 其他所有目录        | 单页文章视图，无侧边栏。                                     |
+- **客户打法：从封闭开发到共创迭代**  
+  从闭门造车到在客户手中迭代产品，走向现实共创。
 
-要将某个部分自定义为与内置布局相同的行为，可以在该部分的 `_index.md` 的前言中指定所需的类型。
+- **组织方式：用科学思维治理公司**  
+  将公司视作实验系统，用“假设-验证-指标”模式治理。
 
-```yaml {filename="content/my-docs/_index.md"}
----
-title: 我的文档
-cascade:
-  type: docs
----
-```
+## 四、心理需求 —— 人性的深层逻辑（内心真实驱动力和思维方式）
 
-上述示例配置确保 `content/my-docs/` 中的内容文件默认会被视为文档（`docs` 类型）。
+- **通过“科学地改变世界”完成自我价值**：目标不是赚钱，而是技术真正落地、产生影响。
+- **怕落后，不怕被抄**：认知力和迭代速度才是安全感来源。
+- **能容忍混乱，又坚持系统最优**：用严谨系统思维在混乱中寻找稳定。
+- **科学方法是内心锚点**：环境复杂也不迷失，用科研方法论做判断。
+- **不是想创业，而是“不得不”创业**：不是因赚钱机会而动，而是因“不做会后悔一辈子”。
 
-## 侧边栏导航
+## 五、福格行为模型
 
-侧边栏导航会根据内容组织按字母顺序自动生成。要手动配置侧边栏顺序，可以在 Markdown 文件的前言中使用 `weight` 参数。
+### 1. Motivation（动机）
 
-```yaml {filename="content/docs/guide/_index.md"}
----
-title: 指南
-weight: 2
----
-```
+- **时代使命感驱动**：AI 是技术人的主场，是改变世界的机会。
+- **自我实现愿望**：从“想让别人觉得我牛”转向“做出有价值的产品”。
+- **学术体系局限感**：对传统科研考核与资源分配失望。
+- **认知同步驱动**：同时关注行业技术、商业、学术，保持高密度认知。
 
-{{< callout emoji="ℹ️">}}
-  建议不要让侧边栏过深。如果你有很多内容，考虑**将它们分成多个部分**。
-{{< /callout >}}
+### 2. Ability（能力）
 
-## 面包屑导航
+- **科研 + 工程 + 商业 三栖能力**：技术底蕴来自 ResNet 时代，涉足自动驾驶、仿真、生成式 AI，同时具备产品和组织能力。
+- **认知结构完整**：系统建模、资源协同能力强，能吸收多方逻辑。
+- **团队配置强大**：构建了理解仿真、生成式 AI 和具身控制的稀缺团队。
 
-面包屑导航会根据 `/content` 的目录结构自动生成。
+### 3. Prompt（提示事件）
 
-例如，考虑上面[展示的目录结构](#directory-structure)。根据该结构，页面 `/docs/guide/organize-files/` 顶部的面包屑导航会自动显示如下：
+- **大模型与产业界巨头的“提示效应”**：  
+  GPT、英伟达 Cosmos、李飞飞 All Labs 的动态提示了产业窗口的开启。
 
-```
-文档 > 指南 > 组织文件
-```
+- **质检模型在校内的应用验证**：  
+  最早从质检场景切入具身智能，逐步延展至世界建模。
 
-### 自定义面包屑链接标题
+- **投资人和客户的正反馈**：  
+  切入事件模型后，获得投资人和 B 端客户关注，增强信心。
 
-默认情况下，每个面包屑链接是根据页面的 `title` 参数生成的。你可以通过指定 `linkTitle` 来自定义。
+## 六、创业最先解决的 X 件事（行动优先级排序）
 
-例如，如果我们希望面包屑显示为 `Foo Bar` 而不是 `Organize Files`：
+### 第一件事：确立世界模型的战略定位
 
-```yaml {filename="content/docs/guide/organize-files.md"}
----
-linkTitle: Foo Bar
-title: 组织文件
----
-```
+- 认为传统机器人路线难走，选择“世界建模 + 控制”的底层技术闭环。
+- 这是与其他具身智能创业者的最大差异点。
 
-现在会生成以下面包屑：
-```
-文档 > 指南 > Foo Bar
-```
+### 第二件事：从质检场景切入，构建真实落地路径
 
-### 隐藏面包屑
+- 避免直接做机器人，从复杂但工程门槛低的质检任务起步。
+- 回避“炫酷但无解”的产品陷阱。
 
-你可以通过在页面的前言中指定 `breadcrumbs: false` 来完全隐藏面包屑：
+### 第三件事：构建多维认知领先的团队
 
-```yaml {filename="content/docs/guide/organize-files.md"}
----
-breadcrumbs: false
-title: 组织文件
----
-```
+- 团队同时懂生成式 AI、仿真、自动驾驶，在事件模型方向闭环推进。
+- 此类团队极为稀缺，是其核心壁垒来源。
 
-## 配置内容目录
-
-默认情况下，Hugo 使用根目录 `content/` 来构建网站。
-如果你需要使用不同的目录来存放内容，例如 `docs/`，可以通过在站点配置文件 `hugo.yaml` 中设置 [`contentDir`](https://gohugo.io/getting-started/configuration/#contentdir) 参数来实现。
-
-## 添加图片
-
-添加图片的最简单方法是将图片文件放在与 Markdown 文件相同的目录中。
-例如，将图片文件 `image.png` 与 `my-page.md` 文件放在一起：
-
-{{< filetree/container >}}
-  {{< filetree/folder name="content" >}}
-    {{< filetree/folder name="docs" >}}
-        {{< filetree/file name="my-page.md" >}}
-        {{< filetree/file name="image.png" >}}
-    {{< /filetree/folder >}}
-  {{< /filetree/folder >}}
-{{< /filetree/container >}}
-
-然后，我们可以使用以下 Markdown 语法将图片添加到内容中：
-
-```markdown {filename="content/docs/my-page.md"}
-![](image.png)
-```
-
-我们还可以利用 Hugo 的 [页面包][page-bundles] 功能将图片文件与 Markdown 文件一起组织。为此，将 `my-page.md` 文件转换为目录 `my-page`，并将内容放入名为 `index.md` 的文件中，然后将图片文件放入 `my-page` 目录中：
-
-{{< filetree/container >}}
-  {{< filetree/folder name="content" >}}
-    {{< filetree/folder name="docs" >}}
-        {{< filetree/folder name="my-page" >}}
-            {{< filetree/file name="index.md" >}}
-            {{< filetree/file name="image.png" >}}
-        {{< /filetree/folder >}}
-    {{< /filetree/folder >}}
-  {{< /filetree/folder >}}
-{{< /filetree/container >}}
-
-```markdown {filename="content/docs/my-page/index.md"}
-![](image.png)
-```
-
-或者，我们也可以将图片文件放在 `static` 目录中，这样所有页面都可以访问这些图片：
-
-{{< filetree/container >}}
-  {{< filetree/folder name="static" >}}
-    {{< filetree/folder name="images" >}}
-        {{< filetree/file name="image.png" >}}
-    {{< /filetree/folder >}}
-  {{< /filetree/folder >}}
-  {{< filetree/folder name="content" >}}
-    {{< filetree/folder name="docs" >}}
-        {{< filetree/file name="my-page.md" >}}
-    {{< /filetree/folder >}}
-  {{< /filetree/folder >}}
-{{< /filetree/container >}}
-
-注意，图片路径以斜杠 `/` 开头，并且相对于静态目录：
-
-```markdown {filename="content/docs/my-page.md"}
-![](/images/image.png)
-```
 
 [page-bundles]: https://gohugo.io/content-management/page-bundles/#leaf-bundles

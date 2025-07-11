@@ -67,6 +67,6 @@ layout: hextra-home
   {{< hextra/feature-card
     title="还有更多..."
     icon="sparkles"
-    subtitle="上下游产业链 / 对话创业者 / 加入初创公司 / 寻找合伙人 / 嘉润创业者社群 / 等等..."
+    subtitle="上下游产业链 / 对话创业者 / 加入初创公司 / 寻找合伙人 / 加入创业者社群 / 等等..."
   >}}
 {{< /hextra/feature-grid >}}
